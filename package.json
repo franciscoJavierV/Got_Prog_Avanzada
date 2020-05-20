@@ -1,0 +1,22 @@
+{
+  "name": "avanzada",
+  "version": "1.0.0",
+  "description": "proyecto del tecer corte (got)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscoJavierV/Got_Prog_Avanzada.git"
+  },
+  "keywords": [
+    "got"
+  ],
+  "author": "francisco vasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscoJavierV/Got_Prog_Avanzada/issues"
+  },
+  "homepage": "https://github.com/franciscoJavierV/Got_Prog_Avanzada#readme"
+}
