@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans&display=swap');
 
 body {
-    font-family: 'Lora';
+    font-family: 'lora';
     background-color: #f0efef
   }
+
 
   h2 {
       font-family: 'Open-Sans';
   }
+

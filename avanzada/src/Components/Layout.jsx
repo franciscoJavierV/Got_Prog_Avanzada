@@ -7,9 +7,9 @@ function Layout(props) {
   return (
     <React.Fragment>
       <div className="container">
-            
-      {props.children}
-     
+         <h1>Titulo lora</h1>
+        <p>text open sans</p>      
+        {props.children}     
       </div>
     </React.Fragment>
   );
