@@ -1,18 +1,22 @@
 import React from 'react'
-import Footer from '../Components/Footer.jsx'
 import Header from '../Components/Header.jsx'
-import Layout from '../Components/Layout.jsx';
+import Welcome from '../Components/Welcome.jsx'
+import MenuButtons from '../Components/MenuButtons.jsx'
 import '../Style/Pages/Home.css'
+
 function Home (){
     return (
         <React.Fragment>
-            <Header/>
-            <Layout>
+            <Header/>   
+            <div className="Home">   
+                 
+                <MenuButtons/> 
+                <Welcome/>
+            </div>                   
+           
+            </React.Fragment>
+       
             
-            </Layout>
-            
-            <Footer/>
-        </React.Fragment>
         
     );
 }
