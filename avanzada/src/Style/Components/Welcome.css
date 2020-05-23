@@ -1,29 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans&display=swap');
 
-.container{
-    width: 500px ;
-    height: 375px;
-    padding: 20px;
-    margin-right: 145px ;
-    display: flex;
-    vertical-align: center;
-    border : 1px black solid;
+.welcome__container{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        margin-right: 150px;
+        border: 1px; 
+        width: 500px;
+        height: 300px;
+        border: 1px solid;
+        padding: 5px;
+        display: block;
+        background-color: #e5e5e5;
 }
-.container__image{
-    border: 1px solid black;
+.welcome__container__image{
+    border: 1px  ;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     
+    }
+    .welcome__container__image-img{
+        width: 130px;
+        height: 130px; 
+        
     
 }
-.container__image-img{
-    width: 130px;
-    height: 130px;
-    border : 1px black solid;
-}
-.container__article{
-    border : 1px black solid;
-    width: 80%;
+.welcome__container__article{
+    color: #7B0303;
     text-align: center;
 }
-.container__article-article{
-    border : 1px black solid;
-    font-family: 'Open-Sans';
+.welcome__container__article-article{
+    color: black;
+    font-size: large;
+    
 }

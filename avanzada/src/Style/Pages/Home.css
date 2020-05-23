@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans&display=swap');
 
-.Home{
+.home__container {
     display: flex;
-    align-items: center;
+    
     justify-content: space-around;
-       
 }

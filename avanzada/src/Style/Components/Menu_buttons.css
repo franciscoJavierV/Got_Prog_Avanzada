@@ -3,14 +3,13 @@
 
  
 .menu{
-    width: 400px;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    width: 350px;
     height: 375px;
     background-color: #e5e5e5;
+    margin-top: 70px;
+    margin-bottom: 50px;
     margin-left: 145px;   
     padding: 5px;
-    box-sizing: border-box;
     font-size: large;
     font-family: 'Lora';    
 }

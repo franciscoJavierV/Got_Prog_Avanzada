@@ -1,12 +1,14 @@
 import React from 'react';
-import { Link, BrowserRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+
 import '../Style/Components/Menu_buttons.css'
 
 
 const MenuButtons = () => {
     return (
         <React.Fragment>
-            <BrowserRouter>
+            
             <div className="menu">
             <div className="menu__title">
                     <h3>Menu</h3>
@@ -14,23 +16,23 @@ const MenuButtons = () => {
                 <div className="menu__buttons">
                 
                     <div className="menu__buttons__item">
-                    <Link  className="menu__buttons__item-link" to="">Amorios</Link>
+                    <Link  className="menu__buttons__item-link" to='/Amorios'>Amorios</Link>
                     </div>          
                     <div className="menu__buttons__item">
-                    <Link className="menu__buttons__item-link" to="">Dragones</Link>
+                    <Link className="menu__buttons__item-link" to="/Dragones">Dragones</Link>
                     </div>          
                     <div className="menu__buttons__item">
-                    <Link  className="menu__buttons__item-link"to="">Subditos</Link>
+                    <Link  className="menu__buttons__item-link"to="/Subditos">Subditos</Link>
                     </div>          
                     <div className="menu__buttons__item">
-                    <Link className="menu__buttons__item-link" to="">Territorios</Link>
+                    <Link className="menu__buttons__item-link" to="/Territorios">Territorios</Link>
                     </div>          
                     <div className="menu__buttons__item">
-                    <Link className="menu__buttons__item-link" to="">Guerreros</Link>
+                    <Link className="menu__buttons__item-link" to="/Guerreros">Guerreros</Link>
                     </div>                           
                 </div>
             </div>
-            </BrowserRouter>
+         
         </React.Fragment>
     )
 }
