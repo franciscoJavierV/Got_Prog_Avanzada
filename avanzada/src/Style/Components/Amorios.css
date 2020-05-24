@@ -1,0 +1,27 @@
+.amor__container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.amor__container__list{
+    margin-top:80px ;
+    border: 1px black solid;
+    width: 700px;
+    height: max-content;
+
+}
+.amor__container__list__item{
+    margin :5px;
+    font-size: larger;
+    padding: 10px;
+    border: 1px blue solid;
+}
+
+.amor__container__form-container{
+    margin-top:45px ;
+    margin-bottom: 65px;
+    padding: 20px;
+    width: 400px;
+    border: 1px solid red;
+    height: max-content;
+}

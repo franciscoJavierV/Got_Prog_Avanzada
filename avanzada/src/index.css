@@ -10,6 +10,6 @@ body {
 
   }
 
-h2,h3,p,article {
+label,h2,h3,p,article {
     font-family: 'Lora';
 }

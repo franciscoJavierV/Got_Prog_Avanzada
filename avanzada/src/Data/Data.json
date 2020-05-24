@@ -1,0 +1,15 @@
+[
+    {
+        id : 1,
+        name : 'vasallo1',
+        puesto : 'guerrero',
+        status: 'noble'
+
+    },{
+        id : '2',
+        name : 'vasallo2',
+        puesto : 'granjero',
+        status: 'plebeyo'
+
+    },
+],
