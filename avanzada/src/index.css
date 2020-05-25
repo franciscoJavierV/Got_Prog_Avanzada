@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans&display=swap");
 
 body {
-    background-color: #f0efef
-  }
+  background-color: #f0efef;
+}
 
+h1 {
+  font-family: "Open-Sans";
+}
 
-  h1 {
-      font-family: 'Open-Sans';
-
-  }
-
-label,h2,h3,p,article {
-    font-family: 'Lora';
+label,
+h2,
+h3,
+p,
+article {
+  font-family: "Lora";
 }

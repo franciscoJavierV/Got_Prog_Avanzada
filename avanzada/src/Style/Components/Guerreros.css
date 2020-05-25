@@ -1,0 +1,29 @@
+.guerreros__container{     
+    display: flex;
+    justify-content: space-around
+  }
+  .guerreros__container__list{
+      background-color: #e5e5e5;
+      margin-top: 80px;
+      width: 700px;
+      height: max-content;
+  }
+  .guerreros__container__list__item{
+      margin: 5px;
+      font-size: larger;
+      padding: 10px;
+      background-color: lightgray;
+      font-weight: 500;
+  }
+  .guerreros__container__form-container{
+      background-color: #e5e5e5;
+      margin-top: 45px;
+      margin-bottom: 65px;
+      padding: 20px;
+      width: 400px;
+      height: max-content;
+  }
+  ul{
+      list-style: none;
+    }
+    

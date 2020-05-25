@@ -1,27 +1,63 @@
-.amor__container{
-    display: flex;
-    justify-content: space-around;
-    
+.amor__container { 
+  display: flex;
+  justify-content: space-around;
 }
-.amor__container__list{
-    margin-top:80px ;
-    border: 1px black solid;
-    width: 700px;
-    height: max-content;
+.amor__container__list {
+  background-color: #e5e5e5;
+  margin-top: 80px;
+  width: 700px;
+  height: max-content;
+}
+.amor__container__list__item {
 
-}
-.amor__container__list__item{
-    margin :5px;
-    font-size: larger;
-    padding: 10px;
-    border: 1px blue solid;
+  margin: 10px;
+  font-size: larger;
+  padding: 10px;
+  background-color: lightgray;
+  font-weight: 500;
 }
 
-.amor__container__form-container{
-    margin-top:45px ;
-    margin-bottom: 65px;
-    padding: 20px;
-    width: 400px;
-    border: 1px solid red;
-    height: max-content;
+.amor__container__list-p{
+  font-size: larger;
+}
+.amor__container__list__item-button {
+  
+  display: flex;
+  text-align: right;
+ 
+}
+.amor__container__list__item-button-mt {
+    margin-right: 25px;
+    width: fit-content;
+    background-color:#7b0303;
+    border-radius:13px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none; 
+}
+
+
+
+
+ .amor__container__list__item-button :hover{
+  text-decoration: none;
+  color: white;
+  background-color: #5a0f0f
+}
+
+.amor__container__form-container {
+  background-color: #e5e5e5;
+  margin-top: 45px;
+  margin-bottom: 65px;
+  padding: 20px;
+  width: 400px;
+  height: max-content;
+}
+ul{
+  list-style: none;
 }

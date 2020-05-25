@@ -1,0 +1,15 @@
+.territorios__carousel{
+    width: 80%; 
+    display: flex;
+    margin: auto;
+    justify-content: center;  
+  }
+  .territorios__carousel__item{
+    display: flex;
+    margin: 2px;
+  }
+  .territorios1, .territorios2, .territorios3 {
+    margin : 15px;
+    width: 300px;
+    
+  }

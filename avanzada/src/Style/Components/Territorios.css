@@ -1,0 +1,20 @@
+.territorios__container{
+    border :5px solid #7b0303;
+    background-color :#1d1c1c;
+    border-radius: 5px;
+}
+.territorios__container-img{
+    text-align: center;
+    
+}
+.territorios__container-img-img{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    
+}
+.territorios__info{
+    font-weight: bolder;
+    padding: 20px;
+    color:white;
+}

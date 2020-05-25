@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Components/Header.jsx";
 import Welcome from "../Components/Welcome.jsx";
-import Footer from '../Components/Footer.jsx'
+import Footer from "../Components/Footer.jsx";
 import MenuButtons from "../Components/MenuButtons.jsx";
 import "../Style/Pages/Home.css";
 
@@ -17,9 +17,8 @@ function Home() {
         <div className="home__action">
           <Welcome />
         </div>
-        
       </div>
-      <Footer/>
+      <Footer />
     </React.Fragment>
   );
 }

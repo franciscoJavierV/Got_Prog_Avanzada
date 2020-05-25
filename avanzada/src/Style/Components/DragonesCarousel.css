@@ -1,0 +1,15 @@
+.dragon__carousel{
+  width: 80%; 
+  display: flex;
+  margin: auto;
+  justify-content: center;  
+}
+.dragon__carousel__item{
+  display: flex;
+  margin: 2px;
+}
+.dragon1, .dragon2, .dragon3 {
+  margin : 15px;
+  width: 300px;
+  
+}

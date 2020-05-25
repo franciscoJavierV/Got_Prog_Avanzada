@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Open+Sans&display=swap");
 
 .home__container {
-    display: flex;
-    
-    justify-content: space-around;
+  display: flex;
+
+  justify-content: space-around;
 }
