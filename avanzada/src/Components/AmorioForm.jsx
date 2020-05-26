@@ -31,10 +31,10 @@ class AmorioForm extends React.Component {
 
   render() {
     return (
-      <div>
+      <div >
         <h1>New Lover</h1>
 
-        <form>
+        <form >
           <div className="form-group">
             <label>Name</label>
             <input

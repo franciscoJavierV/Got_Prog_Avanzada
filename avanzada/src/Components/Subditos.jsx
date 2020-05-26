@@ -12,7 +12,7 @@ class SubditosItem extends React.Component {
         id: "1",
         name: "subdito1",
         hijos : '3',
-        nombe_hijos : 'subhijo1 subhijo2 subhijo3',
+        nombre_hijos : 'subhijo1 subhijo2',
         problema : 'decendencia',
         status: "noble",
       },
@@ -20,11 +20,15 @@ class SubditosItem extends React.Component {
         id: "2",
         name: "subdito2",
         hijos : '2',
-        nombe_hijos : 'sub2hijo1 sub2hijo2 sub2hijo3',
+        nombre_hijos : 'sub2hijo1 sub2hijo2',
         problema : 'plata',
         status: "plebeyo",
       },
     ],
+  };
+  killSubdito = (id) => {
+    const love = this.state.data.filter((amorios) => amorios.id !== id);
+    this.setState({ data: love });
   };
 
   addNewSubdito = (form) => {
@@ -46,13 +50,26 @@ class SubditosItem extends React.Component {
         <Header />
         <div className="subditos__container">
           <ul className="subditos__container__list">
+          <div className="guerreros__container__list-encabezado">
+               <p className="guerreros__container__list-encabezado-item">Nombre</p>
+                <p className="guerreros__container__list-encabezado-item">Hijos</p> 
+                <p className="guerreros__container__list-encabezado-item">Nombre de los hijos </p>
+                <p className="guerreros__container__list-encabezado-item">Status</p> 
+                <p className="guerreros__container__list-encabezado-item">Problema</p>
+            </div>
+
             {this.state.data.map((e) => {
               return (
                 <li className="subditos__container__list__item" key={e.id}>
-                  <p>
-                    {" "}
-                    {e.id} {e.name} {e.hijos} {e.nombre_hijos} {e.problema} {e.status}{" "}
-                    
+                  <p className="guerreros__container__list__item__data">
+                     <p className="guerreros__container__list__item__data-item ">{e.name}</p>
+                     <p>{e.hijos}</p>
+                     <p>{e.nombre_hijos}</p>
+                     <p>{e.status}</p>
+                     <p>{e.problema}</p>                        
+                     <button  className="amor__container__list__item-button-mt" onClick={this.killSubdito.bind(this, e.id)}>
+                      Matar
+                    </button>
                   </p>
                 </li>
               );

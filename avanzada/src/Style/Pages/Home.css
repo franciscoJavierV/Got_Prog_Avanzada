@@ -3,5 +3,7 @@
 .home__container {
   display: flex;
 
+  background: rgb(223,223,223);
+  background: linear-gradient(90deg, rgba(223,223,223,1) 0%, rgba(251,251,251,0.7819502801120448) 51%, rgba(223,223,223,1) 100%);
   justify-content: space-around;
 }

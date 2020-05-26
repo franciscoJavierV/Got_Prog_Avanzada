@@ -3,8 +3,10 @@
   display: flex;
   margin: auto;
   justify-content: center;  
+  
 }
 .dragon__carousel__item{
+  
   display: flex;
   margin: 2px;
 }

@@ -4,8 +4,9 @@
   width: 350px;
   height: 375px;
   background-color: #e5e5e5;
+  border : 1px solid;  
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   margin-left: 145px;
   padding: 5px;
   font-size: large;

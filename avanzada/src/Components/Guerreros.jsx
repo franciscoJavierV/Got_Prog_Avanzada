@@ -11,20 +11,24 @@ class Guerreros extends React.Component {
       {
         id: "1",
         name: "guerrero1",
-        espacialidad : 'caballos',
+        especialidad : 'caballos',
         cargo : 'Dodraki x',
-        personaAsesinada : 'como mil campecinos x',
+        personaAsesinada : 'mil campecinos x',
         interes: "5",
       },
       {
         id: "2",
         name: "guerrero",
-        espacialidad : 'linea frontal',
+        especialidad : 'linea',
         cargo : 'Inmaculado',
-        personaAsesinada : 'como 1000',
-        interes: "mm 0 es eonuco",
+        personaAsesinada : '1000',
+        interes: "0",
       },
     ],
+  };
+  killGuerrero = (id) => {
+    const love = this.state.data.filter((amorios) => amorios.id !== id);
+    this.setState({ data: love });
   };
 
   addNewGuerrero = (form) => {
@@ -46,13 +50,28 @@ class Guerreros extends React.Component {
         <Header />
         <div className="guerreros__container">
           <ul className="guerreros__container__list">
+            <div className="guerreros__container__list-encabezado">
+               <p className="guerreros__container__list-encabezado-item">Nombre</p>
+                <p className="guerreros__container__list-encabezado-item">Especialidad</p> 
+                <p className="guerreros__container__list-encabezado-item">Cargo </p>
+                <p className="guerreros__container__list-encabezado-item">Asesinatos</p> 
+                <p className="guerreros__container__list-encabezado-item">Interes</p>
+                <p className="guerreros__container__list-encabezado-item">Accion</p>
+            </div>
+          
             {this.state.data.map((e) => {
               return (
                 <li className="guerreros__container__list__item" key={e.id}>
-                  <p>
-                    {" "}
-                    {e.id} {e.name} {e.especialidad} {e.cargo} {e.personaAsesinada} {e.interes}{" "}
-                    
+                  
+                  <p className="guerreros__container__list__item__data">
+                     <p>{e.name}</p>
+                     <p>{e.especialidad}</p>
+                     <p>{e.cargo}</p>
+                     <p>{e.personaAsesinada}</p>
+                     <p>{e.interes}</p>                        
+                     <button  className="amor__container__list__item-button-mt" onClick={this.killGuerrero.bind(this, e.id)}>
+                      Matar
+                    </button>
                   </p>
                 </li>
               );

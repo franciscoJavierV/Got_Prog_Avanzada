@@ -9,7 +9,7 @@ const Welcome = () => {
       </div>
       <div className="welcome__container__article">
         <h1>welcome</h1>
-        <p className="welcome__container__article-article">hi i´m a page</p>
+        <p className="welcome__container__article-article">Proyecto de tercer corte de programacion avanzada</p>
       </div>
     </div>
   );

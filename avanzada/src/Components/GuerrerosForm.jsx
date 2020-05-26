@@ -37,7 +37,7 @@ class GuerrerosForm extends React.Component {
                  <div>
         <h1>New Warrior </h1>
 
-        <form>
+        <form className="Amorios__form">
           <div className="form-group">
             <label>Name</label>
             <input

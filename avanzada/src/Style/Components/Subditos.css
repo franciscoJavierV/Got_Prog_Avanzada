@@ -6,6 +6,7 @@
     background-color: #e5e5e5;
     margin-top: 80px;
     width: 700px;
+    border:1px solid;
     height: max-content;
 }
 .subditos__container__list__item{
@@ -15,11 +16,13 @@
     background-color: lightgray;
     font-weight: 500;
 }
+
 .subditos__container__form-container{
     background-color: #e5e5e5;
     margin-top: 45px;
     margin-bottom: 65px;
     padding: 20px;
+    border:1px solid;
     width: 400px;
     height: max-content;
 }

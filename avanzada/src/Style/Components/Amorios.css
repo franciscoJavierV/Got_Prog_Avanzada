@@ -1,8 +1,12 @@
 .amor__container { 
   display: flex;
+  
+  background: rgb(223,223,223);
+  background: linear-gradient(90deg, rgba(223,223,223,1) 0%, rgba(251,251,251,0.7819502801120448) 51%, rgba(223,223,223,1) 100%);
   justify-content: space-around;
 }
 .amor__container__list {
+  border:1px solid;
   background-color: #e5e5e5;
   margin-top: 80px;
   width: 700px;
@@ -20,8 +24,7 @@
 .amor__container__list-p{
   font-size: larger;
 }
-.amor__container__list__item-button {
-  
+.amor__container__list__item-button {  
   display: flex;
   text-align: right;
  
@@ -55,6 +58,7 @@
   margin-top: 45px;
   margin-bottom: 65px;
   padding: 20px;
+  border:1px solid;
   width: 400px;
   height: max-content;
 }

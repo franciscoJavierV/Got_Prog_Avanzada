@@ -6,7 +6,19 @@
       background-color: #e5e5e5;
       margin-top: 80px;
       width: 700px;
+      border:1px solid;
       height: max-content;
+  }
+  .guerreros__container__list-encabezado{
+      margin-right: 5px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .guerreros__container__list__item__data{
+      display: flex;      
+      justify-content: space-between;
   }
   .guerreros__container__list__item{
       margin: 5px;
@@ -20,6 +32,7 @@
       margin-top: 45px;
       margin-bottom: 65px;
       padding: 20px;
+      border:1px solid;
       width: 400px;
       height: max-content;
   }
