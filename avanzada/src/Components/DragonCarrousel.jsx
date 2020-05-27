@@ -7,27 +7,27 @@ import Rhaegal from '../Images/Rhaegal.jpg'
 
 const drogon = {
     name :"Drogon",
-    fuerza :"Muchisima",
+    fuerza :"200",
     edad : 7,
-    color : 'Color',
-    personas_comidas : '123',
+    color : 'Negro',
+    personas_comidas : '100´+',
     comida_favorita : 'Personas',
 }
 const viserion = {
     name :"Viserion",
-    fuerza :"Poca se lo cargo el zombi",
+    fuerza :"150",
     edad : 7,
-    color : 'Color',
+    color : 'Amarillo',
     personas_comidas : '123',
     comida_favorita : 'Lanza de caminante',
 }
 
 const rhaegal = {
     name :"Rhaegal",
-    fuerza :"Media",
+    fuerza :"175",
     edad : 7,
-    color : 'Color',
-    personas_comidas : '123',
+    color : 'Verde',
+    personas_comidas : '190',
     comida_favorita : 'Quentyl Martel',
 }
 const DragonCarrousel = () =>(

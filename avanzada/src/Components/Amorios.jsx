@@ -9,15 +9,15 @@ class AmoriosItem extends React.Component {
     data: [
       {
         id: "1",
-        name: "vasallo1",
-        puesto: "guerrero",
-        status: "noble",
+        name: "Daario Naharis",
+        puesto: "Guerrero",
+        status: "Mercenario",
       },
       {
         id: "2",
-        name: "vasallo2",
-        puesto: "granjero",
-        status: "plebeyo",
+        name: "Jon Snow",
+        puesto: "Amante & aliado",
+        status: "Noble",
       },
     ],
   };

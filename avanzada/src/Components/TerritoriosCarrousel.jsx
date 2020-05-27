@@ -7,22 +7,22 @@ import  Territorios from "./Territorios";
 
 const summerhall = {
   name: "Summerhall",
-  clima: "Calido... bro... se quemo la wea esa ctm ",
-  productos: 'No ps que se quemo',
-  subditos: "Los quemados alv",
+  clima: "Calido",
+  productos: 'Ninguno',
+  subditos: "Ninguno",
 };
 const dragonstone = {
   name: "Gragonstone",
-  clima: "Como san andres",
-  productos: 'rastas ',
-  subditos: "Tu casa",
+  clima: "Lluvioso",
+  productos: 'Pescado',
+  subditos: "Propio",
 };
 
 const stormsend = {
   name: "Stormsend",
-  clima: "Llueve como en bogota XD",
-  productos:'changua ',
-  subditos: "Rolo come changua asquerosos",
+  clima: "Lluvioso",
+  productos:'Ganaderia ',
+  subditos: "Barateon",
 };
 const TerritoriosCarrousel = () => (
   <div className="territorios__carousel">
